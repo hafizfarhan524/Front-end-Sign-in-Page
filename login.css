@@ -1,0 +1,71 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  background-image: url("img.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+.form1 {
+  border: 3px solid  orange;
+  width: 600px;
+  height: 500px;
+  color: white;
+  margin-top: 100px;
+  margin-left: 500px;
+  padding: 10px;
+  background-color: grey;
+ 
+}
+label {
+  font-size: 18px;
+}
+input {
+  padding: 0px;
+  margin: 0px;
+  width: 350px;
+  height: 20px;
+}
+#loginbtn {
+  margin-left: 15px;
+  margin-top: 40px;
+  height: 30px;
+  width: 130px;
+  border-radius: 50px;
+  border-color: none;
+  color: black;
+  background-color: white;
+}
+#signupbtn {
+    margin-left: 50px;
+    margin-top: 40px;
+    height: 30px;
+    width: 130px;
+    border-radius: 50px;
+    border-color: none;
+    color: black;
+    background-color: white;
+  }
+button:hover {
+  border: none;
+  background-color: turquoise;
+  cursor: pointer;
+}
+#checkbox {
+  margin: 0px;
+  padding: 0px;
+  margin-top: 10px;
+  width: 15px;
+}
+a{
+    color: orange;
+}
+form{
+    margin-left: 20%;
+    margin-top: 100px;
+}

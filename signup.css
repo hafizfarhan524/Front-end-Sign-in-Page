@@ -1,0 +1,67 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  background-image: url("img.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+.form1 {
+  border: 3px solid orange;
+  width: 600px;
+  height: 800px;
+  color: white;
+  margin-top: 20px;
+  margin-left: 500px;
+  padding: 10px;
+  background-color: grey;
+}
+label {
+  font-size: 18px;
+
+}
+input {
+  padding: 0px;
+  margin: 0px;
+  width: 350px;
+  height: 20px;
+  margin-top: -200px;
+}
+
+
+#signupbtn {
+  margin-left: 100px;
+  margin-top: 40px;
+  height: 30px;
+  width: 130px;
+  border-radius: 50px;
+  border-color: none;
+  color: black;
+  background-color: white;
+}
+button:hover {
+  border: none;
+  background-color: turquoise;
+  cursor: pointer;
+}
+#checkbox {
+  margin: 0px;
+  padding: 0px;
+  margin-top: 10px;
+  width: 15px;
+}
+a {
+  color: orange;
+}
+form {
+  margin-left: 20%;
+  margin-top: 50px;
+}
+.gender {
+  width: 30px;
+}
